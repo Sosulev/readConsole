@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "./readConsole.js",
   "author": "",
+  "type": "module",
   "license": "ISC",
   "description": ""
 }
