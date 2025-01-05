@@ -1,7 +1,7 @@
 {
-  "name": "rlh",
+  "name": "read_console",
   "version": "1.0.0",
-  "main": "./rlh.js",
+  "main": "./readConsole.js",
   "author": "",
   "license": "ISC",
   "description": ""
