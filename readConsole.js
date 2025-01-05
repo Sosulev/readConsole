@@ -17,6 +17,6 @@ rl.on('line', (input) => {
 })
 rl.prompt()
 
-rl.on('test', arr=>{console.log(arr)})
+rl.on('test', console.log)
 
 module.exports = rl
