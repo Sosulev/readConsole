@@ -3,7 +3,7 @@ import readline from 'readline'
 import fs from 'fs'
 import osData from 'os'
 const os=osData.homedir()
-const rl = readline.createInterface({input: process.stdin, output: process.stdout, prompt: '', historySize: 100})
+const rl = readline.createInterface({input: process.stdin, output: process.stdout, prompt: '', historySize: 100, removeHistoryDuplicates:true})
 const historyFile = path.join(os, ".test_command_history")
 try { rl.history = JSON.parse(fs.readFileSync(historyFile, "utf-8")) } catch (error) {}
 
